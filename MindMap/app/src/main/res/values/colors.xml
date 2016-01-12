@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#505050</color>
+    <color name="colorPrimaryDark">#363636</color>
+    <color name="colorAccent">#40C4FF</color>
+
+
+    <color name="colorWhiteBackground">#ffffff</color>
+    <color name="colorTextOnWhiteBackground">#c3c3c3</color>
+    <color name="colorTitleOnWhiteBackground">#505050</color>
+
+    <color name="colorSubject">#737373</color>
+
+    <color name="color_click">#f8f8f8</color>
+    <color name="color_orbit">#86bebebe</color>
+
+    <color name="color_circle_1">#FF4081</color>
+    <color name="color_circle_2">#E040FB</color>
+    <color name="color_circle_3">#7C4DFF</color>
+    <color name="color_circle_4">#536DFE</color>
+    <color name="color_circle_5">#448AFF</color>
+    <color name="color_circle_6">#FF6E40</color>
+    <color name="color_circle_7">#8D6E63</color>
+    <color name="color_circle_8">#43A047</color>
+    <color name="color_circle_9">#689F38</color>
+
+
+
+    <color name="planet_color_1_1">#D50000</color>
+    <color name="planet_color_1_2">#FF1744</color>
+    <color name="planet_color_1_3">#FF5252</color>
+
+    <color name="planet_color_2_1">#AA00FF</color>
+    <color name="planet_color_2_2">#D500F9</color>
+    <color name="planet_color_2_3">#AA00FF</color>
+
+    <color name="planet_color_3_1">#0D47A1</color>
+    <color name="planet_color_3_2">#2962FF</color>
+    <color name="planet_color_3_3">#448AFF</color>
+
+    <color name="planet_color_4_1">#33691E</color>
+    <color name="planet_color_4_2">#558B2F</color>
+    <color name="planet_color_4_3">#689F38</color>
+
+    <color name="planet_color_5_1">#5D4037</color>
+    <color name="planet_color_5_2">#795548</color>
+    <color name="planet_color_5_3">#8D6E63</color>
+
+
+</resources>

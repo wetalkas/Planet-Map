@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_dialog_choose_subject_title"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorWhiteBackground"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    >
+
+    <TextView
+        android:id="@+id/tv_dialog_choose_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose subject"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/divider"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/tv_dialog_choose_subject"
+        android:layout_marginTop="16dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true">
+
+
+    <TextView
+        android:id="@+id/tv_subject_list_element_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:textSize="14sp"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <ImageButton
+        android:id="@+id/ib_subject_list_element_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_extension_black_24dp"
+        android:tint="@color/colorTitleOnWhiteBackground"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:scaleType="fitStart"/>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/divider"
+        android:layout_height="1dp"
+        android:background="#e4e4e4"
+        android:layout_marginTop="51dp"
+
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+
+
+</RelativeLayout>

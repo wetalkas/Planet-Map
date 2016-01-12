@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/hello_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:isScrollContainer="true"
+
+    android:background="@color/colorWhiteBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/hello_text"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center_vertical"
+        android:text="Choose color"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="15sp"
+        android:paddingLeft="30dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cv_current_color"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="16dp"
+        android:src="@color/colorAccent"
+        android:layout_alignLeft="@id/hello_text"/>
+
+    <RelativeLayout
+        android:id="@+id/hello_hidden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hello_text"
+        android:isScrollContainer="false"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <GridLayout
+            android:id="@+id/color_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+
+            android:columnCount="5"
+            android:rowCount="3">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_1_1"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="18dp"
+                android:src="@color/planet_color_2_1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="18dp"
+                android:src="@color/planet_color_3_1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="18dp"
+                android:src="@color/planet_color_4_1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="18dp"
+                android:src="@color/planet_color_5_1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_1_2"
+                android:layout_marginTop="16dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_2_2"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_3_2"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_4_2"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_5_2"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_1_3"
+                android:layout_marginTop="16dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_2_3"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_3_3"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_4_3"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@color/planet_color_5_3"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"
+                />
+
+
+        </GridLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

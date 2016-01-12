@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhiteBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_gravity="right"
+
+    android:focusable="false">
+
+
+    <EditText
+        android:id="@+id/et_create_mind_map_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/secondary_text_light_nodisable"
+        android:hint="Name the planet"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:singleLine="true"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:selectAllOnFocus="true"/>
+
+
+    <EditText
+        android:id="@+id/et_create_mind_map_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/divider"
+        android:hint="Write your description"
+        android:textColorHint="@android:color/secondary_text_light_nodisable"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:layout_above="@+id/hello_layout"
+        android:selectAllOnFocus="true"/>
+
+
+
+
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/divider"
+        android:layout_height="1dp"
+        android:background="#1e000000"
+        android:layout_below="@+id/et_create_mind_map_name"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+
+
+
+    <include layout="@layout/color_picker"/>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
